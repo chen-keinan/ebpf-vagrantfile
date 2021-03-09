@@ -28,4 +28,15 @@ make
 sudo make install
 cp bpf_helper{,_def}s.h /vagrant/
 
+echo "install golang pkg"
+sudo yum install -y golang 
+
+echo "Install dlv pkg"
+ git clone https://github.com/go-delve/delve.git $GOPATH/src/github.com/go-delve/delve
+ cd $GOPATH/src/github.com/go-delve/delve
+ make install
+
+### export dlv bin path
+export PATH=$PATH:/home/vagrant/go/bin
+
 echo "Finished provisioning."
