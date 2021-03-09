@@ -3,7 +3,7 @@
 echo "Provisioning virtual machine..."
 
 # bpf dependencies
-echo "bpf dependencies packages i.e(clang llvm and etc)"
+echo "install bpf dependencies packages i.e(clang llvm and etc)"
 sudo yum install -y clang elfutils-libelf-devel gcc git llvm make zlib > /dev/null
 
 echo "download bpf helper"
