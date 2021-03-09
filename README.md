@@ -1,6 +1,7 @@
 # ebpf-vagrantfile
 
-vagrant file to be used for ebpf program developments include :
+vagrant file to be used for ebpf program developments, file include :
+- centos/8
 - bpf tools 
 - golang tools
 - dlv for remote debug
