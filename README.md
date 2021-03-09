@@ -7,7 +7,6 @@ vagrant file to be used for ebpf program developments include :
 
 ## Quick Start
 
-Execute kube-eacon without any flags , execute all tests 
 ```
  git clone git@github.com:chen-keinan/ebpf-vagrantfile.git
  cd ebpf-vagrantfile
