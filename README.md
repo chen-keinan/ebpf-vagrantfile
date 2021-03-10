@@ -9,10 +9,10 @@ vagrant file to be used for ebpf program developments, file include :
 ## Quick Start
 
 ```
- git clone git@github.com:chen-keinan/ebpf-vagrantfile.git
- cd ebpf-vagrantfile
- vagrant up
-
+# git clone git@github.com:chen-keinan/ebpf-vagrantfile.git
+# cd ebpf-vagrantfile
+# vagrant up
+# vagrant ssh
 ```
 
 
