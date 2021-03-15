@@ -36,6 +36,7 @@ echo "Install dlv pkg"
  make install
 
 ### export dlv bin path
-export PATH=$PATH:/home/vagrant/go/bin
+echo export PATH=$PATH:/home/vagrant/go/bin >> ~/.bashrc
+echo export PATH=$PATH:/root/go/bin >> ~/.bashrc
 
 echo "Finished provisioning."
