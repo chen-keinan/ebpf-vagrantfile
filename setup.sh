@@ -14,6 +14,10 @@ sudo yum install -y python3
 echo "download kernal-5.6"
 curl -LO --insecure https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.6.tar.xz
 
+echo "install kernal headers"
+yum install -y kernel-devel
+
+
 echo "extract files"
 tar xf linux-5.6.tar.xz
 cd linux-5.6/
